@@ -1,0 +1,22 @@
+.logo{
+    font-size: 60px;
+    background-image: url('/src/assets/logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    letter-spacing: 5px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.profile{
+    width: 80px;
+}

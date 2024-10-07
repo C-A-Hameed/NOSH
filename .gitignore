@@ -1,0 +1,12 @@
+# admin
+
+/admin/node_modules
+/admin/package-lock.json
+/admin/package.json
+
+# backend
+
+/backend/node_modules
+/backend/.env
+/backend/package-lock.json
+/backend/package.json

@@ -44,6 +44,8 @@ import remove from './remove.jpg';
 import add from './add.jpg';
 import playstore from './playstore.jpg';
 import app_store from './app-store.jpg'; // Renamed to app_store
+import parcel_icon from './parcel_icon.jpg'
+
 
 export const assets = {
     rating_stars,
@@ -52,6 +54,7 @@ export const assets = {
     add,
     playstore,
     app_store, // Updated reference
+    parcel_icon,
 };
 
 export const menu_list = [

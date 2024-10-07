@@ -1,0 +1,41 @@
+.place-order{
+    display: flex;
+    align-items: flex-start; /* Corrected from 'start' to 'flex-start' */
+    justify-content: space-between;
+    gap: 3.125rem; /* Converted 50px to rem */
+    margin-top: 6.25rem; /* Converted 100px to rem */
+}
+
+.place-order-left{
+    width: 100%;
+    max-width: max(30%, 500px); /* Check browser compatibility */
+}
+
+.place-order-left .title{
+    font-size: 1.875rem; /* Use rem units for scalability */
+    font-weight: 600;
+    margin-bottom: 1.875rem; /* Use rem units */
+}
+
+.place-order-left input{
+    margin-bottom: 0.75rem; /* Use rem units */
+    width: 100%;
+    padding: 0.625rem; /* Use rem units */
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: tomato; 
+}
+
+.place-order-left .multi-fields{
+    display: flex;
+    gap: 0.625rem; /* Converted 10px to rem */
+}
+
+.place-order-right{
+    width: 100%;
+    max-width: max(40%, 500px);
+}
+
+.place-order .cart-total button{
+    margin-top: 1.875rem; /* Converted 30px to rem */
+}
