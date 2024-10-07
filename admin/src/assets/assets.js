@@ -5,12 +5,7 @@ import order from './order.png'
 import upload_area from './upload.png'
 import parcel_icon from './parcel_icon.jpg'
 
-
-
-
-
-
-
+export const url = "https://nosh-backend.onrender.com"
 
 
 export const assets = {
